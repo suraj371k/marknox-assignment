@@ -1,11 +1,13 @@
 import React from 'react'
-import {Header , About} from '../All'
+import {Header , About , Project , Footer} from '../All'
 
 function Home() {
   return (
     <div>
-        <Header/>
-        <About/>
+        <Header />
+        <About />
+        <Project />
+        <Footer />
     </div>
   )
 }

@@ -21,7 +21,7 @@ function RotatingSphere({ position, color }) {
 
 export default function Background3D() {
   return (
-    <Canvas className="absolute top-0 left-0 w-full h-full z-0">
+    <Canvas className="fixed top-0 left-0 w-full h-full z-0">
       <ambientLight intensity={0.5} />
       <directionalLight position={[10, 10, 5]} intensity={1} />
       

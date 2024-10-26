@@ -4,8 +4,10 @@ import name from '../assets/suraj image2.jpg'
 
 function About() {
   return (
-    <div className=' w-full h-screen container mx-auto flex justify-evenly items-center
-    lg:flex-row md:flex-col flex-col gap-y-7 mb-10'>
+    <div 
+    id='about'
+    className=' w-full min-h-screen mt-32 container mx-auto flex justify-evenly items-center
+    lg:flex-row md:flex-col flex-col gap-y-7 mb-32'>
        <div className='flex flex-col gap-y-10'>
          <div>
           <h2 

@@ -1,4 +1,3 @@
-// Header.js
 import React from 'react';
 import Background3D from './Background3d';
 import { FaArrowDown } from "react-icons/fa";
@@ -26,11 +25,13 @@ function Header() {
         </div>
         <div className="flex gap-x-10">
           <div className="flex bg-[#d00000] rounded-full">
-            <button className='lg:px-20 md:px-12 px-8'>About me</button>
+            <a href='#about'
+             className='lg:px-20 md:px-12 px-8 text-center py-5'>About me
+             </a>
           </div>
           <div className="px-20 py-5 text-white flex justify-between">
             <div className=''>
-            <button>View work</button>
+            <a href='#project'>View work</a>
             </div>
           </div>
         </div>

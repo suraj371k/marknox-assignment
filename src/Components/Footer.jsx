@@ -1,8 +1,10 @@
 import React from 'react'
-
+import Form from './Form'
 function Footer() {
   return (
-    <div>Footer</div>
+    <div>
+      <Form />
+    </div>
   )
 }
 
